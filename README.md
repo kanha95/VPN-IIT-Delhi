@@ -12,7 +12,7 @@
     sudo gedit client.ovpn
     Add the following 2 lines at the end:-
       up /etc/openvpn/update-systemd-resolved
-      up /etc/openvpn/update-systemd-resolved
+      down /etc/openvpn/update-systemd-resolved
     sudo openvpn --script-security 2 --config client.ovpn
 ```
 
